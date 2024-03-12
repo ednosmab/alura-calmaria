@@ -26,12 +26,12 @@
 
 .container__secao .container__secao--conteudo .container__secao--conteudo--textos .container__secao--conteudo--textos-titulo {
     font-family: "Krona One", sans-serif;
-    font-size: 26px;
+    font-size: 2.6rem;
 }
 
 .container__secao .container__secao--conteudo .container__secao--conteudo--textos .container__secao--conteudo--textos-infos {
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     color: var(--lilas-escuro);
     margin: 16px 0;
 }
@@ -66,11 +66,11 @@
     }
 
     .container__secao .container__secao--conteudo .container__secao--conteudo--textos .container__secao--conteudo--textos-titulo {
-        font-size: 31px;
+        font-size: 3.1rem;
     }
 
     .container__secao .container__secao--conteudo .container__secao--conteudo--textos .container__secao--conteudo--textos-infos {
-        font-size: 22px;
+        font-size: 2.2rem;
     }
 
     .container__secao .container__secao--conteudo .container__secao--conteudo--img2:nth-child(2) {

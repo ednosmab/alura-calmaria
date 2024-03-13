@@ -24,6 +24,9 @@ Se liga nessa lista de tudo que usaremos nesse curso:
 - `HTML`
 - `CSS`
 - `Acessibilidade Web`
+- `WCAG Color Contrast Checker`
+- `Lighthouse`
+- `Axe DevTools`
 - `Figma`
 - `Github-pages`
 

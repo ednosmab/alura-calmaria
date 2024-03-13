@@ -2,19 +2,20 @@
 
 # Calmaria Spa
 
-A Calmaria Spa é um empresa de bem estar e saúde. Nesse momento, temos o código inicial da sua landing page, onde vamos encontrar pontos de melhoria para tornar o projeto acessível a todas as pessoas usuárias.
+A Calmaria Spa é um empresa de bem estar e saúde fictícia. Foi solicitada por ela a correção de pontos negativos levantados no quesito acessibilidade. A missão desse projeto foi corrigir esses pontos ao longo do curso. 
 
 <img src="./assets/screenshot.png" alt="Calmaria Spa" width="50%">
 
 
 ## 🔨 Funcionalidades do projeto
 
-Nesse primeiro momento, nós temos a página que foi idealizada como a primeira entrega do time de desenvolvimento.
-
-Durante o curso, nós vamos analisar e refatorar o código do projeto. 
-O desafio é encontrar pontos de melhoria para tornar o projeto Calmaria Spa acessível para todas as pessoas usuárias. 
-
-O [Figma dessa aplicação você encontra aqui](https://www.figma.com/file/1pDTUXo7ovT6zlE64Zw509/Calmaria-Spa--%7C-Forma%C3%A7%C3%A3o-Acessibilidade?type=design&node-id=98-1263&mode=design&t=iIe3hZrzPEvVEi0o-0).
+O que foi aprendido:
+- ``Alterar para o tipo relativo o tamanho da fonte para que o texto fosse ajustado conforme a configuração do navegador pelo usuário com baixa visão, assim como, tamanho, largura e altura.``
+- ``Incluir contraste nos botões ao passar o mouse.``
+- ``Destacar títulos e trecho do texto através de cor, para realce, e peso da fonte.``
+- ``Melhorar espaçamento entre os elementos.``
+- ``Incluir, via CSS, os ícones, para melhorar experiência do usuário com deficiência visual.``
+- ``Adicionar na tag a o href para melhorar a leitura da página pelas tecnologias assistivas como os leitores de tela.``
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
@@ -24,6 +25,7 @@ Se liga nessa lista de tudo que usaremos nesse curso:
 - `CSS`
 - `Acessibilidade Web`
 - `Figma`
+- `Github-pages`
 
 E muito mais!
 

@@ -17,6 +17,18 @@ O que foi aprendido:
 - ``Incluir, via CSS, os ícones, para melhorar experiência do usuário com deficiência visual.``
 - ``Adicionar na tag a o href para melhorar a leitura da página pelas tecnologias assistivas como os leitores de tela.``
 
+## 🏗️ Feito por mim mesmo
+Após a etapa de ajustes no CSS para resolver a questão de acessibilidade visual, observei que haviam alguns quesitos de acessibilidade dentro do HTML para serem resolvidos:
+- ``Incluir a propriedade alt dentro das tags img para descrever as imagens.``
+- ``Configurar as tag inputs e labels para serem criar um vínculo entre elas.``
+- ``Adicionar a propriedade aria-label para descrever as imagens inseridas pelo CSS dentro das tags <a>.``
+- ``Por fim, também, a propriedade aria-label nas tags <object> para descrever as imagens dentro delas.``
+<p>
+  Segundo a análise, feita pela extensão do Chrome Lighthouse, no quesito de Acessibilidade foi aprovado com 100% e SEO com 92%
+
+  ![Análise feita pela extensão Lighthouse](https://github.com/ednosmab/alura-calmaria/assets/37445442/065ae8b5-d814-4faf-8820-656a933232c9)
+</p>
+
 ## ✔️ Técnicas e tecnologias utilizadas
 
 Se liga nessa lista de tudo que usaremos nesse curso:

@@ -100,8 +100,12 @@
             <img class="container__incricao--tablet" src="./assets/mandala-esquerda-tablet.svg" alt="Desenho de uma metade da parte superior da planta dente de leão virada para a esquerda">
             <div class="container__incricao--div">
                 <h1 class="container__incricao--form-titulo">Inscreva-se para ganhar descontos!</h1>
-                <p class="container__incricao--form-texto">Cadastre-se em nossa newsletter para receber descontos e
-                    novidades sobre nossos serviços.</p>
+                <p class="container__incricao--form-texto">
+                    <label for="inscricao">
+                        Cadastre-se em nossa newsletter para receber descontos e
+                        novidades sobre nossos serviços.
+                    </label>
+                </p>
                 <div class="container__incricao--form-input">
                     <input id="inscricao" type="email">
                     <button>Inscrever</button>
@@ -126,31 +130,31 @@
                         você!</p>
                 </div>
                 <div class="container__contato--inputs">
-                    <label>Nome</label>
-                    <input type="text">
-                    <label>Email</label>
-                    <input type="email">
-                    <label>Telefone</label>
-                    <input type="text">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone">
                     <div>
                         <p class="container__contato--inputs--titulo">Prefere contato por:</p>
                         <div class="container__contato--inputs--div">
                             <div>
-                                <input type="radio">
-                                <label>Ligação</label>
+                                <input type="radio" id="prefere-ligacao" name="opcao" value="Ligacao">
+                                <label for="prefere-ligacao">Ligação</label>
                             </div>
                             <div>
-                                <input type="radio">
-                                <label>WhatsApp</label>
+                                <input type="radio" id="prefere-whatsapp" name="opcao" value="whatsapp">
+                                <label for="prefere-whatsapp">WhatsApp</label>
                             </div>
                             <div>
-                                <input type="radio">
-                                <label>Email</label>
+                                <input type="radio" id="prefere-email" name="opcao" value="email">
+                                <label for="prefere-email">Email</label>
                             </div>
                         </div>
                     </div>
-                    <label>Mensagem</label>
-                    <textarea type="text"></textarea>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea type="text" id="mensagem"></textarea>
                 </div>
                 <button>Enviar</button>
             </div>

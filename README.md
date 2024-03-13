@@ -28,6 +28,7 @@ Se liga nessa lista de tudo que usaremos nesse curso:
 - `Lighthouse`
 - `Axe DevTools`
 - `Figma`
+- `Git`
 - `Github-pages`
 
 ## 🛠️ Abrir e rodar o projeto
@@ -46,3 +47,7 @@ Depois, abra o projeto no seu navegador.
 
 O Calmaria Spa é uma empresa fictícia utilizada nesse curso da Alura.
 A ideia principal desse curso é evoluir ainda mais os conhecimentos em Acessibilidade Web com foco em CSS. 
+
+<hr>
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Static Badge](https://img.shields.io/badge/date%20published-march%2024-blue)

@@ -27,13 +27,17 @@ Se liga nessa lista de tudo que usaremos nesse curso:
 - `Figma`
 - `Github-pages`
 
-E muito mais!
-
 ## 🛠️ Abrir e rodar o projeto
 
 Para abrir e rodar o projeto, utilize um editor de código de sua escolha.
 
 Depois, abra o projeto no seu navegador.
+
+## 🌎 Veja como ficou
+
+<p>
+  <a href="https://ednosmab.github.io/alura-calmaria/">Github Pages</a>
+</p>
 
 ## 📚 Mais informações do curso
 

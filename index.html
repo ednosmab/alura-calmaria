@@ -137,7 +137,7 @@
                 <img src="./assets/contato-img-3.png"
                     alt="Pessoa dentro de uma banheira, segurando um livro aberto, mostrando apenas seus joelhos e mãos apoiadas em uma tábua com frutas e uma copo, branco de porcelana com chá, em cima">
             </div>
-            <div action="." class="container__contato--form">
+            <form action="." class="container__contato--form">
                 <div class="container__contato--form-conteudo">
                     <h5 class="container__contato--form-conteudo-titulo">Entre em contato</h5>
                     <p class="container__contato--form-conteudo-texto">Reserve seu horário, tire dúvidas ou proponha
@@ -147,13 +147,13 @@
                 </div>
                 <div class="container__contato--inputs">
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome" placeholder="Digite o seu nome completo">
+                    <input type="text" id="nome" placeholder="Digite o seu nome completo" required>
                     <label for="email" lang="en">Email</label>
-                    <input type="email" id="email" placeholder="Digite o seu email">
+                    <input type="email" id="email" placeholder="Digite o seu email" required>
                     <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" placeholder="(xx) xxxx-xxxx">
-                    <div>
-                        <p class="container__contato--inputs--titulo">Prefere contato por:</p>
+                    <input type="text" id="telefone" placeholder="(xx) xxxx-xxxx" required>
+                    <fieldset>
+                        <legend class="container__contato--inputs--titulo">Prefere contato por:</legend>
                         <div class="container__contato--inputs--div">
                             <div>
                                 <input type="radio" id="prefere-ligacao" name="opcao" value="Ligacao">
@@ -168,12 +168,12 @@
                                 <label for="prefere-email" lang="en">Email</label>
                             </div>
                         </div>
-                    </div>
+                    </fieldset>
                     <label for="mensagem">Mensagem</label>
-                    <textarea type="text" id="mensagem" placeholder="Escreva a sua mensagem"></textarea>
+                    <textarea type="text" id="mensagem" placeholder="Escreva a sua mensagem" maxlength="500"></textarea>
                 </div>
                 <button>Enviar</button>
-            </div>
+            </form>
         </section>
     </main>
 

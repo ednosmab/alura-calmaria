@@ -59,25 +59,37 @@
 }
 
 .container__contato .container__contato--form .container__contato--inputs label,
-.container__contato .container__contato--form .container__contato--inputs .container__contato--inputs--titulo {
+.container__contato
+    .container__contato--form
+    .container__contato--inputs
+    .container__contato--inputs--titulo {
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--lilas-escuro);
 }
 
 .container__contato .container__contato--form .container__contato--inputs input,
-.container__contato .container__contato--form .container__contato--inputs textarea {
+.container__contato
+    .container__contato--form
+    .container__contato--inputs
+    textarea {
     border-radius: 2.5rem;
     padding: 1.6rem;
     border: none;
     font-size: 1.5rem;
 }
 
-.container__contato .container__contato--form .container__contato--inputs textarea {
+.container__contato
+    .container__contato--form
+    .container__contato--inputs
+    textarea {
     height: 7rem;
 }
 
-.container__contato .container__contato--form .container__contato--inputs .container__contato--inputs--div {
+.container__contato
+    .container__contato--form
+    .container__contato--inputs
+    .container__contato--inputs--div {
     display: flex;
     flex-direction: column;
     row-gap: 3.5rem;
@@ -96,12 +108,15 @@
 
 .container__contato .container__contato--form button:hover {
     background: var(--lilas-escuro);
-    transition: .5s;
+    transition: 0.5s;
     cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
+fieldset {
+    border: none;
+}
 
+@media screen and (min-width: 768px) {
     .container__contato {
         padding-left: 6rem;
         padding-right: 6rem;
@@ -141,16 +156,17 @@
         font-size: 3.1rem;
     }
 
-    .container__contato .container__contato--form .container__contato--inputs .container__contato--inputs--div {
+    .container__contato
+        .container__contato--form
+        .container__contato--inputs
+        .container__contato--inputs--div {
         flex-direction: row;
         column-gap: 3.5rem;
         padding: 3.5rem 0;
     }
-
 }
 
 @media screen and (min-width: 1440px) {
-
     .container__contato {
         flex-direction: row;
         padding-left: 12rem;

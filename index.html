@@ -134,7 +134,7 @@
             </div>
             <form action="." class="container__contato--form">
                 <div class="container__contato--form-conteudo">
-                    <h5 class="container__contato--form-conteudo-titulo">Entre em contato</h5>
+                    <h5 id="titulo-contato" class="container__contato--form-conteudo-titulo">Entre em contato</h5>
                     <p class="container__contato--form-conteudo-texto">Reserve seu horário, tire dúvidas ou proponha
                         sugestões, nosso
                         canal é aberto para
@@ -147,19 +147,19 @@
                     <input type="email" id="email" placeholder="Digite o seu email" required>
                     <label for="telefone">Telefone</label>
                     <input type="text" id="telefone" placeholder="(xx) xxxx-xxxx" required>
-                    <fieldset>
+                    <fieldset aria-labelledby="titulo-contato">
                         <legend class="container__contato--inputs--titulo">Prefere contato por:</legend>
                         <div class="container__contato--inputs--div">
                             <div>
-                                <input type="radio" id="prefere-ligacao" name="opcao" value="Ligacao">
+                                <input type="radio" id="prefere-ligacao" name="contato" value="Ligacao">
                                 <label for="prefere-ligacao">Ligação</label>
                             </div>
                             <div>
-                                <input type="radio" id="prefere-whatsapp" name="opcao" value="whatsapp">
+                                <input type="radio" id="prefere-whatsapp" name="contato" value="whatsapp">
                                 <label for="prefere-whatsapp" lang="en">WhatsApp</label>
                             </div>
                             <div>
-                                <input type="radio" id="prefere-email" name="opcao" value="email">
+                                <input type="radio" id="prefere-email" name="contato" value="email">
                                 <label for="prefere-email" lang="en">Email</label>
                             </div>
                         </div>
